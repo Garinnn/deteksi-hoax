@@ -61,7 +61,7 @@ textarea { background-color: #ffffff !important; color: #000000 !important; }
 """, unsafe_allow_html=True)
 
 # 4. JUDUL & DISCLAIMER UTAMA
-st.title("📰 Identifikasi Berita & Sosmed Hoax")
+st.title("📰 Identifikasi Berita Hoax")
 st.warning("""
 **PENTING (DISCLAIMER):** Sistem ini dibangun untuk **membantu mengidentifikasi** potensi hoax berdasarkan pola bahasa. 
 Hasil prediksi model **bukanlah klaim kebenaran mutlak**.
@@ -130,4 +130,5 @@ with tab2:
 # 7. FOOTER
 st.markdown("---")
 
-st.caption("© 2026 Muhamad Rizal Rifaldi | Sistem Identifikasi Hoax Berbasis Naive Bayes")
+st.caption("© 2026 Muhamad Rizal Rifaldi | Sistem Identifikasi Berita Hoax")
+
