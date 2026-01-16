@@ -87,8 +87,8 @@ def show_prediction_results(prob, pred, input_text):
     # Disclaimer di setiap hasil
     st.markdown(f"""
     <div class='disclaimer'>
-    *Catatan: Skor {confidence*100:.2f}% menunjukkan tingkat kemiripan teks dengan pola data yang dipelajari model. 
-    Hasil ini tidak dapat dijadikan satu-satunya bukti hukum tanpa verifikasi lebih lanjut.
+    *Catatan: Skor {confidence*100:.2f}%. Hasil ini memberikan estimasi tingkat kemiripan teks dengan
+    pola data latih untuk membantu Anda dalam mengidentifikasi informasi secara lebih mudah.
     </div>
     """, unsafe_allow_html=True)
 
@@ -129,4 +129,5 @@ with tab2:
 
 # 7. FOOTER
 st.markdown("---")
+
 st.caption("© 2026 Muhamad Rizal Rifaldi | Sistem Identifikasi Hoax Berbasis Naive Bayes")
